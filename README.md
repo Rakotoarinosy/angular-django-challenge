@@ -1,59 +1,54 @@
-# AngularDjangoChallenge
+# 🚀 8 Mois — Angular × Django — Clean Code & Architecture
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.4.
+> **8 mois • 8 projets • 64 épisodes • Une progression de Full Stack Developer vers Software Engineer puis Solution Architect**
 
-## Development server
+![Angular](https://img.shields.io/badge/Angular-Frontend-DD0031?style=flat-square&logo=angular&logoColor=white)
+![Django](https://img.shields.io/badge/Django-Backend-092E20?style=flat-square&logo=django&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-Language-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-Language-3776AB?style=flat-square&logo=python&logoColor=white)
+![Clean Code](https://img.shields.io/badge/Clean%20Code-Uncle%20Bob-111827?style=flat-square)
+![Architecture](https://img.shields.io/badge/Clean%20Architecture-Software%20Design-06B6D4?style=flat-square)
 
-To start a local development server, run:
+---
 
-```bash
-ng serve
-```
+## 🎯 À propos du challenge
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Ce repository est le laboratoire technique de mon **Challenge 8 Mois**.
 
-## Code scaffolding
+L'objectif n'est pas simplement d'apprendre Angular et Django.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+L'objectif est d'apprendre à **concevoir, développer, tester, refactorer, sécuriser, déployer et faire évoluer des logiciels de manière professionnelle**.
 
-```bash
-ng generate component component-name
-```
+Pendant 8 mois, je vais construire progressivement des applications Full Stack avec :
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- Angular
+- TypeScript
+- Django
+- Python
+- Django REST Framework
+- PostgreSQL
+- Redis
+- Docker
+- CI/CD
+- Tests
+- Sécurité
+- Observabilité
+- IA / RAG
+- Clean Code
+- SOLID
+- Clean Architecture
+- Architecture logicielle
+- Architecture de systèmes
 
-```bash
-ng generate --help
-```
+Le challenge est organisé en :
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```text
+8 saisons
+↓
+32 semaines
+↓
+64 épisodes
+↓
+8 projets
+↓
+1 progression vers l'architecture logicielle
