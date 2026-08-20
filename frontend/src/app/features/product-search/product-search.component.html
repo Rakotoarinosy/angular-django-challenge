@@ -1,0 +1,38 @@
+<section class="product-search">
+  <header class="product-search__bar">
+    <input
+      type="text"
+      placeholder="Rechercher un produit..."
+      (input)="onSearchInput($any($event.target).value)"
+    />
+
+    <!-- Signal lu directement, sans | async -->
+    <button type="button" (click)="toggleFilters()">
+      {{ showFilters() ? 'Masquer les filtres' : 'Afficher les filtres' }}
+    </button>
+  </header>
+
+  @if (showFilters()) {
+    <div class="product-search__filters">
+      <button type="button" (click)="selectCategory(null)">Toutes catégories</button>
+      <button type="button" (click)="selectCategory('electronics')">Électronique</button>
+      <button type="button" (click)="selectCategory('books')">Livres</button>
+    </div>
+  }
+
+  @if (searchState().loading) {
+    <p class="product-search__loading">Recherche en cours…</p>
+  }
+
+  @if (hasError()) {
+    <p class="product-search__error">{{ searchState().error }}</p>
+  }
+
+  <p class="product-search__count">{{ resultCount() }} résultat(s)</p>
+
+  <ul class="product-search__results">
+    @for (product of filteredResults(); track product.id) {
+      <li>{{ product.name }} — {{ product.price }} €</li>
+    }
+  </ul>
+</section>
